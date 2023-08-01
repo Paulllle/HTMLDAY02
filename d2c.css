@@ -1,0 +1,148 @@
+body{      
+  width: 100%; height: 100%; margin: 0; padding: 0;      
+  background-image: url("./1.jpg");
+  background-repeat: no-repeat;
+   /* 让背景图基于容器大小伸缩 */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.lead h1{
+  display: inline-block;
+  font-family: 微软雅黑;
+  letter-spacing: 2px;     
+  font-size: 2vw;
+  margin: 0;      
+}
+.lead{
+  color: aliceblue;
+  height: 100%;
+  width: 100%;   
+  margin: 27px;   
+}
+.lead2{
+ padding-left: 30%;
+  display: inline-block;
+}
+.lead2 a,span{
+  text-decoration: none;
+  color: aliceblue;
+  margin: 0 5px;
+  font-size: 1vw; 
+  
+}
+.lead2 a:hover{
+  border-radius: 5px;
+  border: 1px solid aliceblue;
+}
+.lead2 input{
+ width: 260px;
+ height: 25px;
+ /* 让背景颜色透明 */
+ background-color: transparent;
+ border-radius: 8px;
+ border: 1px solid aliceblue;
+ outline: none;
+}
+.lead2 button{            
+  width: 70px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  border-radius: 50px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.lead2 button:hover{            
+  color: black;
+  background-color: aliceblue;
+}
+hr{
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+}
+.content{
+  display: flex;     
+  height: 100%;
+  align-items: center;     
+}
+.text{
+  flex-basis: 50%;
+}
+.pic{
+  flex-basis: 50%;
+}
+.text h1{
+  font-size: 5vw;
+  color: #fff;
+  font-weight: normal; 
+  text-align: center;    
+}
+.text p{
+  font-size: 1.3vw;
+  color: #fff;
+  font-weight: normal;
+  margin: 5%;
+  text-indent: 1vw;
+  line-height: 2.5vw;     
+}
+.text button{
+  width: 180px;
+  color: #ccc;
+  font-size: 1vw;
+  padding: 12px 0;
+  background: #fff;
+  border: 20px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 30%;
+  border-radius: 15px;
+}
+.text button:hover{
+  color: #000;
+}
+.show{
+  width: 15vw;
+  height: 16vw;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 45px 55px;      
+  background-size: cover;
+  /* 变换用的时间    */
+  transition:transform 1s;   
+}
+.show:hover{
+  /* 图片向上移动 */
+  transform: translateY(-2vw);
+}
+.show p{
+  text-align: center;
+  font-size: 0.8vw;
+  margin: 0;
+  padding: 0;
+  color: #ccc;
+  font-family: 宋体;
+}
+h5{
+  text-align: center;
+  font-size: 1vw;
+  margin: 5px;
+  padding: 0;
+  font-family: 仿宋;      
+}
+.pic1{
+  background-image: url('./SDQ.jpg');
+}
+.pic2{
+  background-image: url('./SDQ2.jpg');
+}
+.pic3{
+  background-image: url('./SDQ3.jpg');
+}
+.pic4{
+  background-image: url('./SDQ4.jpg');
+}
